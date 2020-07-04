@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001dc"
+  },
+  "username": "admin",
+  "password": "pass"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001dd"
+  },
+  "username": "user01",
+  "password": "pass01"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001de"
+  },
+  "username": "user02",
+  "password": "pass02"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001df"
+  },
+  "username": "user03",
+  "password": "pass03"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001e0"
+  },
+  "username": "user04",
+  "password": "pass04"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001e1"
+  },
+  "username": "user05",
+  "password": "pass05"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001e2"
+  },
+  "username": "user06",
+  "password": "pass06"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001e3"
+  },
+  "username": "user07",
+  "password": "pass07"
+},{
+  "_id": {
+    "$oid": "5ef8fb4b1a4e82d1cf8001e4"
+  },
+  "username": "user08",
+  "password": "pass08"
+}]

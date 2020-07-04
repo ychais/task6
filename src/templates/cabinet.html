@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <title>Secret Page</title>
+    <link href="../static/css/cabinet.css" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/cabinet.css') }}">-->
+
+</head>
+
+<body class="body">
+    <h2>Secret Page</h2>
+
+    <div class="form2" action="/" method="POST">
+        <div class="container">
+            <img src="../static/img/secret-astronaut-icon.png " alt="Avatar " class="avatar ">
+        </div>
+
+        <div class="container">
+            <p>You have successfully logged in!</p>
+            <p>You can upload your own image.</p>
+        </div>
+
+        <div class="container2">
+            <form method="POST" enctype="multipart/form-data" action="http://localhost:5000/cabinet">
+                <input type="file" name="file">
+                <input class=" button " type="submit" value=Upload>
+            </form>
+
+        </div>
+
+</body>
+
+
+</html>
