@@ -1,0 +1,22 @@
+version: "3.2"
+services:
+
+  flask-simple:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    command: python main.py
+    volumes:
+      - ./src:/usr/src/app/
+    ports:
+      - 80:5000
+    links:
+      - mongodb
+
+  mongodb:
+    volumes:
+     - ./src/data/users.json:/data/db/users.json
+     - ./dump:/dump/
+    image: mongo:3.6.8
+    ports:
+      - 27017:27017
